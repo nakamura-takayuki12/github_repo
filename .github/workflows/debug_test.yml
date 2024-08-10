@@ -1,0 +1,7 @@
+name: Debug Practice
+on: push
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "::debug::デバッグログを出力します"
